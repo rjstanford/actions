@@ -6,11 +6,12 @@ on:
 jobs:
 
   Validate:
+    name: Mandate Conventional Commit Standards
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Mandate Conventional Commit Standards
+      - name: Test Commit Titles
         uses: aslafy-z/conventional-pr-title-action@v2.2.5
         with:
           success-state: Title follows the specification.
