@@ -1,4 +1,4 @@
-name: Gradle Test
+name: Commit Message Validation
 
 on:
   workflow_call:
@@ -7,7 +7,7 @@ jobs:
 
   Validate:
 
-    name: Validate conventional commit conventions
+    name: Conventional Commit Standards
 
     runs-on: ubuntu-latest
 
