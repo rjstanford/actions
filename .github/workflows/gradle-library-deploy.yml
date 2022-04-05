@@ -9,6 +9,8 @@ jobs:
 
   Test-And-Publish:
 
+    name: Gradle Library Deploy
+
     runs-on: ubuntu-latest
 
     steps:
