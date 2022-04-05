@@ -9,8 +9,6 @@ jobs:
 
   Test-And-Publish:
 
-    if: github.event.pull_request.merged
-
     runs-on: ubuntu-latest
 
     steps:
@@ -27,7 +25,6 @@ jobs:
         settings-path: ${{ github.workspace }}
 
     - name: Test
-      if: steps.tag_version.outputs.new_tag != steps.tag_version.outputs.previous_tag
       uses: gradle/gradle-build-action@0d13054264b0bb894ded474f08ebb30921341cee
       with:
         arguments: test
