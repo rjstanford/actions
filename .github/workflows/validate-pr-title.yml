@@ -7,9 +7,7 @@ jobs:
 
   Validate:
     name: Mandate Conventional Commit Standards
-
     runs-on: ubuntu-latest
-
     steps:
       - name: Test Commit Titles
         uses: aslafy-z/conventional-pr-title-action@v2.2.5

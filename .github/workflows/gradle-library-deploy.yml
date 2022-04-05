@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-  Test-And-Publish:
+  Deploy:
 
     name: Gradle Library Deploy
 
