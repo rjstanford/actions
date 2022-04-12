@@ -13,7 +13,7 @@ jobs:
     steps:
 
     - name: Check out code
-      uses: rjstanford/github-action-test/.github/actions/checkout@main
+      uses: actions/checkout@v3
 
     - name: Set up Java
       uses: actions/setup-java@v3
